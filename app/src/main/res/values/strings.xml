@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CashQuizzTest</string>
+
+    <!-- Errors -->
+    <string name="error_msg">Something went wrong..</string>
+    <string name="error_add_fragment_container">Container resource ID not found:</string>
+
+    <!-- TournamentCategoriesFragment -->
+    <string name="tournament_categories_title">Tournament Categories</string>
+    <string name="end_date">END DATE</string>
+    
+</resources>

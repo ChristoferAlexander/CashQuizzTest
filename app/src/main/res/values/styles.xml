@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- General styles -->
+    <style name="WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="IconSmall">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+
+    <!-- Toolbar styles -->
+
+    <style name="ToolbarTitle" parent="WrapContent">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="ToolbarIcon" parent="IconSmall">
+        <item name="android:gravity">start|center_vertical</item>
+    </style>
+
+    <!-- TournamentCategoryItemView styles -->
+
+    <style name="TournamentCategoryTitle">
+        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- TournamentItemView styles -->
+
+    <style name="TournamentCardView">
+        <item name="android:layout_width">@dimen/tournament_card_image_width</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="TournamentCardImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/tournament_card_img_height</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+
+    <style name="TournamentCardDateHolder">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/margin_small</item>
+        <item name="android:background">@color/black_trans</item>
+    </style>
+
+
+    <style name="TournamentCardLabel" parent="WrapContent">
+        <item name="android:text">@string/end_date</item>
+        <item name="android:textSize">@dimen/text_small_medium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="TournamentCardDate" parent="WrapContent">
+        <item name="android:textSize">@dimen/text_small_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="TournamentCardDesc" parent="WrapContent">
+        <item name="android:maxWidth">@dimen/tournament_card_image_width</item>
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+        <item name="android:lines">2</item>
+        <item name="android:textSize">@dimen/text_medium_large</item>
+    </style>
+
+</resources>
